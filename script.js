@@ -8,10 +8,7 @@ const today = new Date();
 const currentMonth = today.getMonth() + 1;
 const ramadanTime = new Date("February 18 2026 00:00:00");
 
-console.log(today);
-console.log(currentMonth);
-
-//
+//Update counts function
 function updateCountdown() {
   const currentTime = new Date();
   const diff = ramadanTime - currentTime;

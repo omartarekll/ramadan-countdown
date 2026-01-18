@@ -60,6 +60,7 @@ h1 {
   color: #fff;
 }
 
+/* Phones and tablets */
 @media (max-width: 500px) {
   body {
     background-image: url("https://i.pinimg.com/1200x/db/76/e5/db76e577321b2ee6848eb05061a3b52a.jpg");
