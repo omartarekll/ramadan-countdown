@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/1200x/5c/00/2f/5c002ff2d8453c3781985ea7fe26133e.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.countdown {
+  display: none;
+  transform: scale(2);
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.time h2 {
+  margin: 0 0 5px;
+}
+.loading {
+  width: 120px;
+  height: 120px;
+}
+
+.ramadan-date {
+  position: fixed;
+  bottom: 50px;
+  padding: 12px;
+  color: rgba(236, 236, 236, 0.664);
+}
+.ramadan-date small {
+  padding-top: 8px;
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  body {
+    background-image: url("https://i.pinimg.com/1200x/db/76/e5/db76e577321b2ee6848eb05061a3b52a.jpg");
+  }
+  h1 {
+    font-size: 45px;
+  }
+  .time {
+    margin: 5px;
+  }
+
+  .time h2 {
+    font-size: 12px;
+    margin: 0;
+  }
+  .time small {
+    font-size: 10px;
+  }
+}
